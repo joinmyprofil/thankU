@@ -10,9 +10,9 @@ html {
 .container {
   max-width: 500px;
   margin: 0 auto;
-  background: red;
+  background-color: #f0f0f0; /* Ganti latar belakang jika file th.jpeg hilang */
   height: 100vh;
-  background-image: url("th.jpeg");
+  background-image: url("th.jpeg"); /* Pastikan file tersedia */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -26,14 +26,14 @@ html {
   padding: 20px;
 }
 
-.profile>img {
+.profile > img {
   width: 150px;
   height: 150px;
   border: 3px solid #323232;
   border-radius: 100%;
 }
 
-.profile>p {
+.profile > p {
   font-size: 1.8em;
   font-weight: 900;
   letter-spacing: 2px;
@@ -49,7 +49,7 @@ html {
   padding: 20px;
 }
 
-.link>a {
+.link > a {
   text-decoration: none;
   color: #222;
   font-size: 24px;
@@ -63,7 +63,7 @@ html {
   font-weight: 500;
 }
 
-.link>a:hover {
+.link > a:hover {
   background-color: azure;
 }
 
@@ -71,7 +71,9 @@ html {
   text-align: center;
 }
 
-.footer>i {
-  color:yellow;
+.footer > i {
+  color: yellow;
   font-size: 20px;
 }
+
+
